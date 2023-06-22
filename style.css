@@ -1,4 +1,4 @@
-body { 
+body {
     font-family: 'Raleway', sans-serif;
     margin: 50px;
     padding: 0px;
@@ -6,46 +6,56 @@ body {
     overflow-x: hidden;
 
 }
-.logo { 
+
+.logo {
     margin-left: 10px;
     padding-top: 10px;
 }
-.logo img { 
+
+.logo img {
     width: 61.09px;
 }
-.menu { 
+
+.menu {
     display: flex;
     align-items: center;
     gap: 68px;
 }
-header { 
+
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
     margin-right: 40px;
 }
-a { 
+
+a {
     text-decoration: none;
     color: black;
 }
-a:hover { 
+
+a:hover {
     color: #0065FC;
     border-top: 2px solid #0065FC;
     padding: 10px;
 }
+
 /****************** Info group ************************/
-.headline h1 { 
+.headline h1 {
     font-size: 22px;
 }
-.headline p { 
+
+.headline p {
     font-size: 16px;
 }
-.column_15 { 
+
+.column_15 {
     display: flex;
     gap: 15px;
 }
-.search-bar { 
+
+.search-bar {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -57,17 +67,21 @@ a:hover {
     border: 1px solid #f2f2f2;
     border-radius: 15px;
 }
-input { 
+
+input {
     border: none;
 }
-::placeholder { 
+
+::placeholder {
     font-size: 18px;
     color: black;
 }
-.main-btn { 
+
+.main-btn {
     display: flex;
 }
-.fa-location-dot { 
+
+.fa-location-dot {
     width: 50px;
     height: 49px;
     left: 0px;
@@ -79,13 +93,15 @@ input {
     justify-content: center;
     align-items: center;
 }
-.fa-magnifying-glass { 
+
+.fa-magnifying-glass {
     display: none;
     width: 17px;
     height: 17px;
     background: #ffffff;
 }
-.btn_search { 
+
+.btn_search {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -100,7 +116,8 @@ input {
     justify-content: center;
     cursor: pointer;
 }
-.filter-bar { 
+
+.filter-bar {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -109,7 +126,8 @@ input {
     width: 758px;
     height: 50px;
 }
-.filter-1 { 
+
+.filter-1 {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -122,18 +140,22 @@ input {
     border-radius: 25px;
     cursor: pointer;
 }
-.filter-1:hover { 
+
+.filter-1:hover {
     background: #DEEBFF;
 }
-.row_column { 
+
+.row_column {
     display: flex;
     gap: 15px;
 }
-.row1 { 
+
+.row1 {
     display: flex;
     gap: 15px;
 }
-.filter-2 { 
+
+.filter-2 {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -146,10 +168,12 @@ input {
     border-radius: 25px;
     cursor: pointer;
 }
-.filter-2:hover { 
+
+.filter-2:hover {
     background: #DEEBFF;
 }
-.filter-3 { 
+
+.filter-3 {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -162,10 +186,12 @@ input {
     border-radius: 25px;
     cursor: pointer;
 }
-.filter-3:hover { 
+
+.filter-3:hover {
     background: #DEEBFF;
 }
-.filter-4 { 
+
+.filter-4 {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -178,22 +204,27 @@ input {
     border-radius: 25px;
     cursor: pointer;
 }
-.filter-4:hover { 
+
+.filter-4:hover {
     background: #DEEBFF;
 }
-.fa { 
+
+.fa {
     color: #0065FC;
 }
-.icon { 
+
+.icon {
     display: flex;
     gap: 14px;
 }
-.icons { 
+
+.icons {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.fa-info { 
+
+.fa-info {
     box-sizing: border-box;
     width: 24px;
     height: 24px;
@@ -206,7 +237,8 @@ input {
     align-items: center;
     color: #0065FC;
 }
-.info_group { 
+
+.info_group {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -216,7 +248,8 @@ input {
     width: 1340px;
     height: 281px;
 }
-.info_bar { 
+
+.info_bar {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -225,8 +258,9 @@ input {
     width: 1340px;
     height: 24px;
 }
+
 /************************** Hébergement à Marseille *******************************/
-.card { 
+.card {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -241,10 +275,12 @@ input {
     order: 0;
     flex-grow: 1;
 }
-.offers_group h2 { 
+
+.offers_group h2 {
     margin-top: 20px;
 }
-.column_2 { 
+
+.column_2 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -253,24 +289,28 @@ input {
     width: 811px;
     height: 207.25px;
 }
-.text a:hover { 
+
+.text a:hover {
     border: none;
     padding: 0px;
 }
-.text a { 
+
+.text a {
     color: black;
     font-size: 18px;
     line-height: 21px;
     font-weight: 700;
 }
-.text-main { 
+
+.text-main {
     width: 811px;
     height: 21px;
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
-.column_1 { 
+
+.column_1 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -279,7 +319,8 @@ input {
     width: 811px;
     height: 207.25px;
 }
-.card img { 
+
+.card img {
     box-sizing: border-box;
     width: 250.33px;
     height: 124px;
@@ -287,26 +328,32 @@ input {
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
-.container h3 { 
+
+.container h3 {
     font-size: 16px;
     font-weight: 800;
 }
-.container p { 
+
+.container p {
     font-size: 14px;
     margin-bottom: 7px;
 }
-.container { 
+
+.container {
     margin-left: 15px;
 }
-.stars { 
+
+.stars {
     font-size: 14px;
     color: #0065fc;
 }
-.star { 
+
+.star {
     font-size: 14px;
     color: #0065FC;
 }
-.offers_group { 
+
+.offers_group {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -320,8 +367,9 @@ input {
     align-self: stretch;
     flex-grow: 1;
 }
+
 /********************* Les plus populaires ***************************/
-.popular { 
+.popular {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -335,7 +383,8 @@ input {
     align-self: stretch;
     flex-grow: 0;
 }
-.section_group { 
+
+.section_group {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -345,16 +394,19 @@ input {
     height: 611.5px;
     margin-top: 90px;
 }
-#title { 
+
+#title {
     width: 369px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.icons_main { 
+
+.icons_main {
     color: #0065FC;
 }
-.cards img { 
+
+.cards img {
     box-sizing: border-box;
     width: 123px;
     height: 144px;
@@ -366,7 +418,8 @@ input {
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
 }
-.img_main { 
+
+.img_main {
     box-sizing: border-box;
     width: 163px;
     height: 144px;
@@ -377,7 +430,8 @@ input {
     border-color: #ffffff;
     border-radius: 20px 0px 0px 20px;
 }
-.cards-1 { 
+
+.cards-1 {
     width: 369px;
     height: 144px;
     background: #ffffff;
@@ -385,7 +439,8 @@ input {
     border-radius: 20px;
     display: flex;
 }
-.cards { 
+
+.cards {
     width: 369px;
     height: 144px;
     background: #ffffff;
@@ -393,25 +448,29 @@ input {
     border-radius: 20px;
     display: flex;
 }
-.frame16 { 
+
+.frame16 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding:10px 5px 5px 15px;
+    padding: 10px 5px 5px 15px;
     gap: 24px;
     width: 246px;
     height: 134px;
 }
-.containers h3 { 
+
+.containers h3 {
     font-size: 16px;
     font-weight: 800;
     width: 226px;
     height: 19px;
 }
-.containers p { 
+
+.containers p {
     font-size: 14px;
 }
-.part_aside { 
+
+.part_aside {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -423,7 +482,7 @@ input {
 
 
 /************************************* Activités à Marseille **************************/
-.card_10 { 
+.card_10 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -435,13 +494,14 @@ input {
     border-radius: 20px;
 }
 
-.card_10 img { 
+.card_10 img {
     width: 297.5px;
     height: 380px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
-.container_10 { 
+
+.container_10 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -453,7 +513,8 @@ input {
     background: #ffffff;
     border-radius: 0px 0px 20px 20px;
 }
-.activites_main { 
+
+.activites_main {
     width: 1280px;
     height: 30.02;
     display: flex;
@@ -461,10 +522,12 @@ input {
     justify-content: flex-start;
 
 }
-.container_10 h3 { 
+
+.container_10 h3 {
     margin: 10px;
 }
-.card_main { 
+
+.card_main {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -473,7 +536,8 @@ input {
     width: 1280px;
     height: 439px;
 }
-.activity-main { 
+
+.activity-main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -486,7 +550,7 @@ input {
 
 /*************** Footer ***************/
 
-.footer_main { 
+.footer_main {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -494,45 +558,51 @@ input {
     background: #f2f2f2;
     margin: 0px;
 }
-.footer-1 { 
+
+.footer-1 {
     width: 1340px;
     height: 163px;
     padding: 20px;
- 
+
 }
-.footer-2 { 
+
+.footer-2 {
     width: 1340px;
     height: 163px;
     padding: 20px;
- 
+
 }
-.footer-3 { 
+
+.footer-3 {
     width: 1340px;
     height: 163px;
     padding: 20px;
 }
-.footer-1 a { 
+
+.footer-1 a {
     border-top: none;
     padding: 0px;
 }
-.footer-2 a { 
+
+.footer-2 a {
     border-top: none;
     padding: 0px;
 }
-.footer-3 a { 
+
+.footer-3 a {
     border-top: none;
     padding: 0px;
 }
-.footer_main h3 { 
+
+.footer_main h3 {
     font-size: 18px;
 }
+
 /************************* Résponsive ********************************/
 
 /* Media query pour les smartphones en mode portrait */
-@media (min-device-width: 320px) 
-and (max-device-width: 480px)
-and (orientation: portrait) {
-    body { 
+@media (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+    body {
         flex-direction: column;
         align-items: flex-start;
         padding: 0px;
@@ -541,38 +611,45 @@ and (orientation: portrait) {
         height: 3982.52px;
         overflow-x: hidden;
     }
-    nav { 
+
+    nav {
         gap: 30px;
     }
-    .logo { 
+
+    .logo {
         width: 61.09px;
         height: 19px;
     }
-    header { 
+
+    header {
         flex-direction: column;
         padding: 0px;
         display: flex;
         align-items: center;
         width: 375px;
         height: 115px;
-       
+
     }
-    a:hover { 
+
+    a:hover {
         border-top: none;
         border-bottom: 1px solid #0065FC;
     }
-    .btn-menu { 
+
+    .btn-menu {
         width: 187.5px;
         height: 19px;
     }
-    .menu { 
+
+    .menu {
         display: flex;
         flex-direction: row;
         align-items: center;
         padding: 0px;
         gap: 15px;
     }
-    .headline { 
+
+    .headline {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -585,24 +662,28 @@ and (orientation: portrait) {
         align-self: stretch;
         flex-grow: 0;
     }
-    .headline h1 { 
+
+    .headline h1 {
         height: 52px;
         font-size: 22px;
         font-weight: 700;
     }
-    .headline p { 
+
+    .headline p {
         height: 19px;
         font-size: 16px;
         font-weight: 400;
     }
-    .search-bar { 
+
+    .search-bar {
         width: 335px;
         height: 49px;
         background: #ffffff;
         border-radius: 15px;
         border: 1px solid #f2f2f2;
     }
-    .fa-magnifying-glass { 
+
+    .fa-magnifying-glass {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -616,7 +697,8 @@ and (orientation: portrait) {
         color: white;
         left: 286px;
     }
-    .fa-location-dot { 
+
+    .fa-location-dot {
         width: 50px;
         height: 49px;
         border: 1px solid #f2f2f2;
@@ -626,21 +708,25 @@ and (orientation: portrait) {
         top: calc(50% - 49px/2);
 
     }
-    .main-btn { 
+
+    .main-btn {
         display: flex;
         justify-content: flex-end;
         width: 100%;
     }
-    .btn_search{ 
+
+    .btn_search {
         display: none;
     }
-    ::placeholder { 
+
+    ::placeholder {
         width: 147px;
         height: 21px;
         left: 74px;
         top: 14px;
     }
-    .info_group { 
+
+    .info_group {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -649,7 +735,8 @@ and (orientation: portrait) {
         width: 375px;
         height: 432px;
     }
-    .fa-info { 
+
+    .fa-info {
         box-sizing: border-box;
         border: 1px solid #D9D9D9;
         border-radius: 50%;
@@ -658,7 +745,8 @@ and (orientation: portrait) {
         left: 0px;
         top: 7px;
     }
-    .filter-bar { 
+
+    .filter-bar {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -668,10 +756,11 @@ and (orientation: portrait) {
         width: 335px;
         height: 161px;
     }
+
     .filter-1,
     .filter-2,
     .filter-3,
-    .filter-4 { 
+    .filter-4 {
         box-sizing: border-box;
         display: flex;
         flex-direction: row;
@@ -683,10 +772,12 @@ and (orientation: portrait) {
         border: 2px solid #D9D9D9;
         border-radius: 25px;
     }
-    .filter-1:hover { 
+
+    .filter-1:hover {
         background: #DEEBFF;
     }
-    .row_column { 
+
+    .row_column {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -696,7 +787,8 @@ and (orientation: portrait) {
         width: 335px;
         height: 50px;
     }
-    .row1 { 
+
+    .row1 {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -706,11 +798,13 @@ and (orientation: portrait) {
         width: 335px;
         height: 50px;
     }
+
     .column_15 {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
     }
-    .info_bar { 
+
+    .info_bar {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -719,12 +813,13 @@ and (orientation: portrait) {
         width: 335px;
         height: 38px;
     }
-    .filter-bar h2 { 
+
+    .filter-bar h2 {
         width: 54px;
         height: 21px;
     }
-    
-    .popular { 
+
+    .popular {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -734,18 +829,21 @@ and (orientation: portrait) {
         height: 569px;
         background: #f2f2f2;
     }
-    #title { 
+
+    #title {
         width: 335px;
         height: 26px;
     }
-    .cards { 
+
+    .cards {
         width: 335px;
         height: 146px;
         background: #ffffff;
         box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
         border-radius: 20px;
     }
-    .cards img { 
+
+    .cards img {
         box-sizing: border-box;
         border-width: 5px 0px 5px 5px;
         border-style: solid;
@@ -753,13 +851,15 @@ and (orientation: portrait) {
         border-radius: 20px 0px 0px 20px;
         right: 66.67%;
     }
-    .star { 
+
+    .star {
         width: 98px;
         height: 12px;
         margin-top: 10px;
         margin-left: 10px;
     }
-    .frame16 { 
+
+    .frame16 {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -770,13 +870,15 @@ and (orientation: portrait) {
         top: 5px;
         bottom: 5px;
     }
-    .cards-1 { 
+
+    .cards-1 {
         width: 335px;
         height: 146px;
         background: #ffffff;
         box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
         border-radius: 20px;
     }
+
     .img_main {
         box-sizing: border-box;
         border-width: 5px 0px 5px 5px;
@@ -784,24 +886,28 @@ and (orientation: portrait) {
         border-color: #ffffff;
         border-radius: 20px 0px 0px 20px;
     }
-    .containers { 
+
+    .containers {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         width: 203.33px;
         height: 85px;
     }
-    .containers h3 { 
+
+    .containers h3 {
         font-size: 16px;
         line-height: 19px;
         width: 203.33px;
         height: 85px;
         margin-left: 10px;
     }
-    .containers p { 
+
+    .containers p {
         margin-left: 10px;
     }
-    .offers_group { 
+
+    .offers_group {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -811,7 +917,8 @@ and (orientation: portrait) {
         height: 1435.5px;
         background: none;
     }
-    .column_1 { 
+
+    .column_1 {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -821,13 +928,15 @@ and (orientation: portrait) {
         height: 651.75px;
         order: 0;
     }
-    .titles { 
+
+    .titles {
         width: 335px;
         height: 26px;
         font-size: 22px;
         line-height: 26px;
     }
-    .column_2 { 
+
+    .column_2 {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -836,7 +945,8 @@ and (orientation: portrait) {
         width: 335px;
         height: 651.75px;
     }
-    .card { 
+
+    .card {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -847,19 +957,22 @@ and (orientation: portrait) {
         box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
         border-radius: 20px;
     }
-    .card img { 
+
+    .card img {
         box-sizing: border-box;
         width: 335px;
         height: 124px;
         border: 5px solid #ffffff;
         border-radius: 20px 20px 0px 0px;
     }
+
     .container,
-    .card { 
+    .card {
         flex-direction: column;
         align-items: flex-start;
     }
-    .container { 
+
+    .container {
         gap: 8px;
         width: 335px;
         height: 64.25px;
@@ -870,7 +983,8 @@ and (orientation: portrait) {
 
 
     }
-    .section_group { 
+
+    .section_group {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -880,7 +994,8 @@ and (orientation: portrait) {
         width: 375px;
         height: 2200.5px;
     }
-    .card_main { 
+
+    .card_main {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -889,7 +1004,8 @@ and (orientation: portrait) {
         width: 315px;
         height: 845px;
     }
-    .card_10 { 
+
+    .card_10 {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -900,12 +1016,14 @@ and (orientation: portrait) {
         filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
         border-radius: 20px;
     }
-    .card_10 img { 
+
+    .card_10 img {
         width: 315px;
         height: 141px;
         border-radius: 20px 20px 0px 0px;
     }
-    .container_10 { 
+
+    .container_10 {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -919,14 +1037,16 @@ and (orientation: portrait) {
         align-self: stretch;
         flex-grow: 0;
     }
-    .container_10 h3 { 
+
+    .container_10 h3 {
         width: 277px;
         height: 19px;
         font-size: 16px;
         line-height: 19px;
         font-weight: 700;
     }
-    .activity-main { 
+
+    .activity-main {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -936,11 +1056,13 @@ and (orientation: portrait) {
         height: 965.02px;
         margin-top: 80px;
     }
-    .activites_main { 
+
+    .activites_main {
         width: 315px;
         height: 30.02px;
     }
-    .footer-1 { 
+
+    .footer-1 {
         flex-direction: column;
         align-items: flex-start;
         padding: 0px;
@@ -948,7 +1070,8 @@ and (orientation: portrait) {
         width: 263.67px;
         height: 123px;
     }
-    .footer-2 { 
+
+    .footer-2 {
         flex-direction: column;
         align-items: flex-start;
         padding: 0px;
@@ -956,7 +1079,8 @@ and (orientation: portrait) {
         width: 263.67px;
         height: 89px;
     }
-    .footer-3 { 
+
+    .footer-3 {
         flex-direction: column;
         align-items: flex-start;
         padding: 0px;
@@ -964,7 +1088,8 @@ and (orientation: portrait) {
         width: 263.67px;
         height: 89px;
     }
-    .footer_main { 
+
+    .footer_main {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -973,18 +1098,15 @@ and (orientation: portrait) {
         width: 375px;
         height: 461px;
         background: #f2f2f2;
-    }    
+    }
 }
 
 /* Media query pour les tablettes en mode portrait */
 
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px)
-  and (orientation: portrait) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 
-    body { 
+    body {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -995,7 +1117,8 @@ and (orientation: portrait) {
         overflow-x: hidden;
         margin: 0px;
     }
-    header { 
+
+    header {
         height: 79px;
         display: flex;
         flex: none;
@@ -1003,7 +1126,8 @@ and (orientation: portrait) {
         align-self: stretch;
         flex-grow: 0;
     }
-    .headline { 
+
+    .headline {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -1012,7 +1136,8 @@ and (orientation: portrait) {
         width: 924px;
         height: 53px;
     }
-    .search-bar { 
+
+    .search-bar {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -1024,7 +1149,8 @@ and (orientation: portrait) {
         border: 1px solid #f2f2f2;
         border-radius: 15px;
     }
-    .filter-bar { 
+
+    .filter-bar {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1034,7 +1160,8 @@ and (orientation: portrait) {
         width: 668px;
         height: 91px;
     }
-    .info_bar { 
+
+    .info_bar {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -1043,7 +1170,8 @@ and (orientation: portrait) {
         width: 924px;
         height: 24px;
     }
-    .info_group { 
+
+    .info_group {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -1052,8 +1180,8 @@ and (orientation: portrait) {
         width: 924px;
         height: 322px;
     }
-   
-    .offers_group { 
+
+    .offers_group {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -1063,7 +1191,8 @@ and (orientation: portrait) {
         background: #f2f2f2;
         border-radius: 15px;
     }
-    .column_1 { 
+
+    .column_1 {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -1072,7 +1201,8 @@ and (orientation: portrait) {
         width: 864px;
         height: 207.25px;
     }
-    .column_2 { 
+
+    .column_2 {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -1081,7 +1211,8 @@ and (orientation: portrait) {
         width: 864px;
         height: 207.25px;
     }
-    .card { 
+
+    .card {
         display: flex;
         flex-direction: column;
         padding: 0px 0px 15px;
@@ -1092,14 +1223,16 @@ and (orientation: portrait) {
         box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
         border-radius: 20px;
     }
-    .card img { 
+
+    .card img {
         box-sizing: border-box;
         width: 268px;
         height: 124px;
         border: 5px solid #ffffff;
         border-radius: 20px 20px 0px 0px;
     }
-    .container { 
+
+    .container {
         flex-direction: column;
         align-items: flex-start;
         padding: 0px 15px;
@@ -1107,7 +1240,8 @@ and (orientation: portrait) {
         width: 268px;
         height: 64.25px;
     }
-    .popular { 
+
+    .popular {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -1118,7 +1252,8 @@ and (orientation: portrait) {
         background: #f2f2f2;
         border-radius: 15px;
     }
-    .part_aside { 
+
+    .part_aside {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -1127,7 +1262,8 @@ and (orientation: portrait) {
         width: 864px;
         height: 146px;
     }
-    .section_group { 
+
+    .section_group {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1137,19 +1273,22 @@ and (orientation: portrait) {
         width: 924px;
         height: 913.5px;
     }
-    .cards { 
+
+    .cards {
         width: 274.67px;
         background: #ffffff;
         box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
         border-radius: 20px;
     }
-    .cards-1 { 
+
+    .cards-1 {
         width: 274.67px;
         background: #ffffff;
         box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
         border-radius: 20px;
     }
-    .cards img { 
+
+    .cards img {
         box-sizing: border-box;
         border-width: 5px 0px 5px 5px;
         border-style: solid;
@@ -1160,14 +1299,17 @@ and (orientation: portrait) {
         bottom: 0px;
         width: 90px;
     }
-    .cards-1 img { 
+
+    .cards-1 img {
         width: 90px;
     }
-    #title { 
+
+    #title {
         width: 864px;
         height: 26px;
     }
-    .frame16 { 
+
+    .frame16 {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -1178,7 +1320,8 @@ and (orientation: portrait) {
         top: 5px;
         bottom: 5px;
     }
-    .containers { 
+
+    .containers {
         flex-direction: column;
         align-items: flex-start;
         padding: 0px;
@@ -1186,13 +1329,15 @@ and (orientation: portrait) {
         width: 163.33px;
         height: 85px;
     }
-    .containers h3 { 
+
+    .containers h3 {
         width: 163.33px;
         height: 38px;
         font-size: 16px;
         line-height: 19px;
     }
-    .activites_main { 
+
+    .activites_main {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -1200,13 +1345,15 @@ and (orientation: portrait) {
         gap: 30px;
         width: 924px;
     }
-    .activites_main h2 { 
+
+    .activites_main h2 {
         width: 864px;
         height: 30.02px;
         font-size: 22px;
         line-height: 26px;
     }
-    .card_main { 
+
+    .card_main {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -1215,6 +1362,7 @@ and (orientation: portrait) {
         width: 864px;
         height: 270px;
     }
+
     .card_10 {
         display: flex;
         flex-direction: column;
@@ -1226,12 +1374,14 @@ and (orientation: portrait) {
         filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
         border-radius: 20px;
     }
-    .card_10 img { 
+
+    .card_10 img {
         width: 193.5px;
         height: 200px;
         border-radius: 20px 20px 0px 0px;
     }
-    .container_10 { 
+
+    .container_10 {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1242,7 +1392,8 @@ and (orientation: portrait) {
         background: #ffffff;
         border-radius: 0px 0px 20px 20px;
     }
-    .footer_main { 
+
+    .footer_main {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -1254,7 +1405,3 @@ and (orientation: portrait) {
 
     }
 }
-    
-
-
-    
