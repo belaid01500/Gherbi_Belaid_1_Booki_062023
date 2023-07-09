@@ -365,7 +365,6 @@ input {
     align-self: stretch;
     flex-grow: 2;
 }
-
 /********************* Les plus populaires ***************************/
 .popular {
     display: flex;
@@ -390,7 +389,6 @@ input {
     gap: 40px;
     flex-wrap: wrap;
     width: 100%;
-    background: red;
     margin-top: 90px;
 }
 
