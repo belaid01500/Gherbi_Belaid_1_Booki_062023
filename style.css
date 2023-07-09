@@ -1,10 +1,8 @@
 body {
     font-family: 'Raleway', sans-serif;
     margin: 50px;
-    padding: 0px;
     box-sizing: border-box;
     overflow-x: hidden;
-
 }
 
 .logo {
@@ -13,7 +11,7 @@ body {
 }
 
 .logo img {
-    width: 61.09px;
+    width: 35%;
 }
 
 .menu {
@@ -42,12 +40,12 @@ a:hover {
 }
 
 /****************** Info group ************************/
-.headline h1 {
+h1 { 
     font-size: 22px;
 }
 
 .headline p {
-    font-size: 16px;
+    width: 100%;
 }
 
 .column_15 {
@@ -61,7 +59,6 @@ a:hover {
     align-items: center;
     padding: 0px;
     gap: 24px;
-    width: 377px;
     height: 49px;
     background: #ffffff;
     border: 1px solid #f2f2f2;
@@ -75,6 +72,7 @@ input {
 ::placeholder {
     font-size: 18px;
     color: black;
+
 }
 
 .main-btn {
@@ -119,11 +117,11 @@ input {
 
 .filter-bar {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     padding: 0px;
     gap: 15px;
-    width: 758px;
     height: 50px;
 }
 
@@ -154,7 +152,9 @@ input {
     display: flex;
     gap: 15px;
 }
-
+.column_15 { 
+    flex-wrap: wrap;
+}
 .filter-2 {
     box-sizing: border-box;
     display: flex;
@@ -245,7 +245,6 @@ input {
     padding: 0px;
     gap: 35px;
     isolation: isolate;
-    width: 1340px;
     height: 281px;
 }
 
@@ -275,7 +274,6 @@ input {
     order: 0;
     flex-grow: 1;
 }
-
 .offers_group h2 {
     margin-top: 20px;
 }
@@ -286,7 +284,7 @@ input {
     align-items: flex-start;
     padding: 0px;
     gap: 30px;
-    width: 811px;
+    width: 100%;
     height: 207.25px;
 }
 
@@ -316,13 +314,13 @@ input {
     align-items: flex-start;
     padding: 0px;
     gap: 30px;
-    width: 811px;
+    width: 100%;
     height: 207.25px;
 }
 
 .card img {
     box-sizing: border-box;
-    width: 250.33px;
+    width: 100%;
     height: 124px;
     border: 5px solid #ffffff;
     border-radius: 20px 20px 0px 0px;
@@ -365,7 +363,7 @@ input {
     flex: none;
     order: 0;
     align-self: stretch;
-    flex-grow: 1;
+    flex-grow: 2;
 }
 
 /********************* Les plus populaires ***************************/
@@ -379,7 +377,7 @@ input {
     background: #f2f2f2;
     border-radius: 15px;
     flex: none;
-    order: 1;
+    order: 0;
     align-self: stretch;
     flex-grow: 0;
 }
@@ -390,8 +388,9 @@ input {
     align-items: center;
     padding: 0px;
     gap: 40px;
-    width: 1340px;
-    height: 611.5px;
+    flex-wrap: wrap;
+    width: 100%;
+    background: red;
     margin-top: 90px;
 }
 
@@ -473,7 +472,6 @@ input {
 .part_aside {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     padding: 0px;
     gap: 30px;
     width: 369px;
@@ -488,7 +486,7 @@ input {
     justify-content: flex-end;
     align-items: center;
     padding: 0px;
-    width: 297.5px;
+    width: 33%;
     height: 439px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     border-radius: 20px;
@@ -500,7 +498,6 @@ input {
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
-
 .container_10 {
     display: flex;
     flex-direction: column;
@@ -533,9 +530,10 @@ input {
     align-items: flex-start;
     padding: 0px;
     gap: 30px;
-    width: 1280px;
+    width: 100%;
     height: 439px;
 }
+
 
 .activity-main {
     display: flex;
@@ -543,7 +541,7 @@ input {
     align-items: flex-start;
     padding: 30px;
     gap: 30px;
-    width: 1340px;
+    width: 100%;
     height: 559.02px;
     margin-top: 60px;
 }
@@ -559,37 +557,37 @@ input {
     margin: 0px;
 }
 
-.footer-1 {
+.a-propos {
     width: 1340px;
     height: 163px;
     padding: 20px;
 
 }
 
-.footer-2 {
+.nos-hebergement {
     width: 1340px;
     height: 163px;
     padding: 20px;
 
 }
 
-.footer-3 {
+.assistance {
     width: 1340px;
     height: 163px;
     padding: 20px;
 }
 
-.footer-1 a {
+.a-propos a {
     border-top: none;
     padding: 0px;
 }
 
-.footer-2 a {
+.nos-hebergement a {
     border-top: none;
     padding: 0px;
 }
 
-.footer-3 a {
+.assistance a {
     border-top: none;
     padding: 0px;
 }
@@ -601,7 +599,7 @@ input {
 /************************* Résponsive ********************************/
 
 /* Media query pour les smartphones en mode portrait */
-@media (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+/*@media (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
     body {
         flex-direction: column;
         align-items: flex-start;
@@ -1104,7 +1102,7 @@ input {
 /* Media query pour les tablettes en mode portrait */
 
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+/*@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 
     body {
         display: flex;
